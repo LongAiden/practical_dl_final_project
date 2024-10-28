@@ -146,4 +146,4 @@ if __name__ == "__main__":
     links_bbc = get_links_from_bbc(category_bbc, headers, num_limit, bbc_rp)
 
     df_txt, failed_links = run_parallel_processing(links_sgt+links_cnn+links_bbc, headers)
-    df_txt.to_csv('scraped_texts.csv', index=False)
+    df_txt.to_csv('scraped_texts_check.csv', index=False)
