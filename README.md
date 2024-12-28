@@ -7,6 +7,6 @@ This project demonstrates fine-tuning large language models using Low-Rank Adapt
     - Data for fine-tuning: multi_news from HuggingFace
 - CUDA-enabled training
 - Low-memory footprint using LoRA:
-- 
+ 
   ![image](https://github.com/user-attachments/assets/60a69988-e4dc-4c05-9997-62192a0cf5fd)
 - Text summarization optimization
